@@ -44,6 +44,7 @@ class App extends Component {
   };
 
   render() {
+    console.log('this is a test')
     const features = Object.keys(this.props.features).map((feature, idx) => {
       const featureHash = feature + '-' + idx;
       const options = this.props.features[feature].map(item => {
