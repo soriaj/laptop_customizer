@@ -42,7 +42,8 @@ class App extends Component {
       selected
     });
   }
-  render() { 
+  render() {
+    console.log(this.props) 
     return (
       <div className="App">
         <header>
